@@ -15,7 +15,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; // I don't know what this is, but Eclipse likes to yell at me if I delete it so keep this in
 	// snake position on screen
 	private int[] snakexlength = new int[750];
 	private int[] snakeylength = new int[750];
