@@ -154,7 +154,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 			score++;
 			lengthofsnake++;
 			
-			// TODO: fix enemy spawn locations, still not working
+			// TODO: fix enemy spawn locations, still not working - code will still run correctly but no changes happen
 			for(int a = 0; a < lengthofsnake; a++) {
 				xpos = random.nextInt(34); 
 					if((xpos == snakexlength[a]) || (ypos == snakeylength[a])) {
@@ -271,7 +271,6 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 
 	@Override
 	public void keyTyped(KeyEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 
