@@ -154,6 +154,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 			score++;
 			lengthofsnake++;
 			
+			// TODO: fix enemy spawn locations, still not working
 			for(int a = 0; a < lengthofsnake; a++) {
 				xpos = random.nextInt(34); 
 					if((xpos == snakexlength[a]) || (ypos == snakeylength[a])) {
